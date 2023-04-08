@@ -1,0 +1,29 @@
+Astroid Crash - 
+
+A team Virteous Project
+
+1)Programming - Firstly we created a prototype which can move in the x axis. 
+		We created a plane with textures applied to it which can move in a dircetion which gives us an illusion that the player gameobject is moving.
+		We then moved on to create and instantiate astroids at random positions and random rotations and moved them towards the SpaceShip player to again give an illusion that the spaceship is moving.
+		After that we made scripts for general stuff like UI game mechanics such as health counter and score.
+		3 different scenes were made namely "Main Menu", "Game", "Game Over" and switched between the scenes according to the game.
+		We also made laser effects coming out of the spaceship whose intensity is increased with time and score.
+
+2) Art - The artistic tone was to keep the tone of the game dark in which a spotlight lights your way forward.
+	 Models were buuilt using the Pro BUilder utility of Unity engine, the spaceship was created by Pro Builder shapes with an attached light.
+         Walls were built using the Pro Builder too.
+	 Our project uses a mix of real time and baked lighting.
+         The asset of Astroids was taken from Unity Asset Store.
+
+3) Level Design - The astroids were instantiated endlessly with collision property which can lead to the end of the game after colliding thrice.
+
+4) Sound - All the three scenes have different soundtracks in which endgame music is an extension of in the game music. 
+	   Tracks were picked up from YouTube royalty free music.		
+	   Each soundtrack is an gameobject in a respective scene which destroys itself as soon as you progress from another scene.
+
+Future Scope - The game has the potential for increasing the movement and adding movement animations. The asteroids can be rigged to have a 'destruction animation'.
+	       Adding other relevant VFX effects to the ship and texture movement that simulates the space.
+
+Multiplayer Scope - Yes the game can have a multiplayer mode in which different players can compete online for High Score, an online leaderboar. The game can also have co-op mode in which
+		    two players can try to set a high score on an adjusted difficulty level.											
+
